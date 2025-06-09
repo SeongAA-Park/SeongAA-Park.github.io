@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "그래픽스 스페셜리스트가 되겠어!"
 ---
 # 깃헙 블로그는 처음 작성해 보네요.
