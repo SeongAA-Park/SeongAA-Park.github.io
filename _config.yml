@@ -17,11 +17,11 @@ minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "n
 # Site Settings
 locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "새싹비빔밥"
+title                    : "sprout_bebop"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "박성아"
-description              : "그래픽 스페셜리스트가 되겠어!"
+name                     : "SeongA_Park"
+description              : "Study Computer Graphics."
 url                      : "https://SeongAA-Park.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -113,10 +113,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "박성아리"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  bio              : "컴퓨터 그래픽스를 공부합니다."
+  location         : "Korea"
   email            :
   links:
     - label: "Email"
@@ -324,3 +324,14 @@ defaults:
       comments: # true
       share: true
       related: true
+
+#추가설정
+# Font settings
+google_fonts:
+  - "Noto Sans KR:400,700"
+  - "Roboto:400,700"
+
+font:
+  heading: "Roboto"
+  body: "Noto Sans KR"
+  nav: "Roboto"
