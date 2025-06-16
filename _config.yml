@@ -114,7 +114,7 @@ analytics:
 # Site Author
 author:
   name             : "박성아리"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "assets/Github_Avatar.jpg"   # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "컴퓨터 그래픽스를 공부합니다."
   location         : "Korea"
   email            : "seongah0201@gmail.com"
