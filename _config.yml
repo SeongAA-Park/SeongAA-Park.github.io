@@ -15,7 +15,7 @@
 minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
+locale                   : "ko-KR"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
 title                    : "sprout_bebop"
 title_separator          : "-"
@@ -117,7 +117,7 @@ author:
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "컴퓨터 그래픽스를 공부합니다."
   location         : "Korea"
-  email            :
+  email            : "seongah0201@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
