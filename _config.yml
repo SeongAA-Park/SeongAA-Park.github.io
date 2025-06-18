@@ -325,13 +325,3 @@ defaults:
       share: true
       related: true
 
-#추가설정
-# Font settings
-google_fonts:
-  - "Noto Sans KR:400,700"
-  - "Roboto:400,700"
-
-font:
-  heading: "Roboto"
-  body: "Noto Sans KR"
-  nav: "Roboto"
