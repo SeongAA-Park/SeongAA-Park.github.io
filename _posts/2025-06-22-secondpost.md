@@ -136,14 +136,14 @@ int main()
 해당 내용을 확장해서, 위 코드의 메모리 구조를 도식화한 그림을 보자.
 
 <img src="docs/assets/images/copyconstructor_img2.jpg" width="90%" height="90%" title="img1" alt=" - "/> 
-#![copyconstructor_errormemorydisplay](docs/assets/images/copyconstructor_img2.jpg)
+<!--![copyconstructor_errormemorydisplay](docs/assets/images/copyconstructor_img2.jpg)-->
 
 >디폴트 복사 생성자는 멤버 대 멤버의 단순 복사를 진행하기 때문에 복사의 결과로 하나의 문자열을 두 개의 객체가 동시에 참조하는 꼴을 만들어버린다. ... 이로 인해서 객체의 소멸과정에서 문제가 발생한다.
 
 아래 그림은 man2 객체가 소멸된 상황이다.
 
 <img src="docs/assets/images/copyconstructor_img1.jpg" width="90%" height="90%" title="img2" alt=" - "/> 
-#![copyconstructor_man2objectdeleted](docs/assets/images/copyconstructor_img1.jpg)
+<!--![copyconstructor_man2objectdeleted](docs/assets/images/copyconstructor_img1.jpg)-->
 
 man2가 소멸되고 남은 man1도 소멸되려 할 때, man1의 멤버인 name이 참조하는 문자열이 이미 소멸된 상태이다. 그렇기에 소멸자의 delete[]문장의 실행은 이미 지워진 문자열을 대상으로 지우겠다는 뜻이 되어, 문제가 된다.
 
