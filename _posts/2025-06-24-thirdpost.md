@@ -1,4 +1,5 @@
 ---
+layout: single
 title: "윤성우의 열혈 C++ 프로그래밍 - OOP 단계별 프로젝트 (2)"
 excerpt: "C++ 교재 내의 프로젝트 진행 - 2단계"
 
