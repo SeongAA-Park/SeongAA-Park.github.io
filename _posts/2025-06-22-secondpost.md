@@ -135,7 +135,7 @@ int main()
 
 해당 내용을 확장해서, 위 코드의 메모리 구조를 도식화한 그림을 보자.
 
-![사진1]({{ "/uploads/copyconstructor_img1.jpg" | relative_url }})
+![사진1]({{ "uploads/copyconstructor_img1.jpg" | relative_url }})
 
 
 >디폴트 복사 생성자는 멤버 대 멤버의 단순 복사를 진행하기 때문에 복사의 결과로 하나의 문자열을 두 개의 객체가 동시에 참조하는 꼴을 만들어버린다. ... 이로 인해서 객체의 소멸과정에서 문제가 발생한다.
