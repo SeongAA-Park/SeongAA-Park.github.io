@@ -6,7 +6,7 @@ excerpt: "C++ 교재 내의 프로젝트 진행 - 2단계"
 categories : 
     - Cpp
 tags:
-    - [윤성우의 열혈 C++,OOP Project]
+    - [Cpp,OOP_Project]
 
 date: 2025-06-24
 ---
