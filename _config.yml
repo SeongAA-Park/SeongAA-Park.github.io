@@ -33,6 +33,8 @@ words_per_minute         : 200
 enable_copy_code_button  : # true, false (default)
 copyright                : # "copyright" name, defaults to site.title
 copyright_url            : # "copyright" URL, defaults to site.url
+
+
 comments:
   provider               : giscus 
   # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
@@ -51,7 +53,7 @@ comments:
   giscus:
     repo                 : "SeongAA-Park/blog_CommentSave"
     repo_id              : "R_kgDOPBnLbA" # Shown during giscus setup at https://giscus.app
-    category_name        : "Announcements" # Full text name of the category
+    category             : "Announcements" # Full text name of the category   #원래 이름은 category_name
     category_id          : "DIC_kwDOPBnLbM4Cr-rQ" # Shown during giscus setup at https://giscus.app
     discussion_term      : "pathname" # "pathname" (default), "url", "title", "og:title"
     reactions_enabled    : "1"# '1' for enabled (default), '0' for disabled
