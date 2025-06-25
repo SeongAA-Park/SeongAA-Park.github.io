@@ -34,7 +34,8 @@ enable_copy_code_button  : # true, false (default)
 copyright                : # "copyright" name, defaults to site.title
 copyright_url            : # "copyright" URL, defaults to site.url
 comments:
-  provider               : "giscus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
+  provider               : giscus 
+  # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
@@ -48,7 +49,8 @@ comments:
     theme                : # "github-light" (default), "github-dark"
     issue_term           : # "pathname" (default)
   giscus:
-    repo_id              : "https://giscus.app/client.js" # Shown during giscus setup at https://giscus.app
+    repo                 : "SeongAA-Park/blog_CommentSave"
+    repo_id              : "R_kgDOPBnLbA" # Shown during giscus setup at https://giscus.app
     category_name        : "Announcements" # Full text name of the category
     category_id          : "DIC_kwDOPBnLbM4Cr-rQ" # Shown during giscus setup at https://giscus.app
     discussion_term      : "pathname" # "pathname" (default), "url", "title", "og:title"
